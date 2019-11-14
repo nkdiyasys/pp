@@ -479,7 +479,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: nithinsheregar@gmail.com (55D7KC9C38)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NITTE EDUCATION TRUST (82LERXH33G)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -540,7 +540,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: nithinsheregar@gmail.com (55D7KC9C38)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NITTE EDUCATION TRUST (82LERXH33G)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -568,17 +568,17 @@
 			baseConfigurationReference = 69CC4BE191B2BD552E396D9B /* Pods-PodSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MJ7W2794DC;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NITTE EDUCATION TRUST (82LERXH33G)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 82LERXH33G;
 				INFOPLIST_FILE = PodSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lockdown.PodSample;
+				PRODUCT_BUNDLE_IDENTIFIER = coma.nitte.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "NITTE Adhoc certificate";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -589,17 +589,17 @@
 			baseConfigurationReference = CD256028B0B3E8356F871263 /* Pods-PodSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MJ7W2794DC;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NITTE EDUCATION TRUST (82LERXH33G)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 82LERXH33G;
 				INFOPLIST_FILE = PodSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lockdown.PodSample;
+				PRODUCT_BUNDLE_IDENTIFIER = coma.nitte.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "NITTE Adhoc certificate";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
